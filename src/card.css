@@ -1,0 +1,85 @@
+.CardContainerWrapper {
+  display: flex;
+  width: 100%;
+  height: 670px;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardContainer {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+.CardContainerLeft {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.CardContainerRight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.CardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+
+.Card {
+  background: white;
+  border-radius: 15px;
+  width: 100%;
+  height: 95%;
+}
+
+.CardRight img {
+  border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+}
+
+.CardLeft {
+  background: white;
+  border-radius: 15px;
+  height: 570px;
+  width: 570px;
+}
+
+.CardLeft img {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+}
+
+.CardInfoWrapper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardInfo {
+  height: 90%;
+  width: 90%;
+}
+
+.CardButton {
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: #357c9c;
+  color: white;
+  height: 30px;
+  width: 100px;
+}

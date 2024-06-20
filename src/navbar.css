@@ -1,0 +1,68 @@
+.NavBarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.NavBar {
+  width: 100%;
+}
+
+.NavBarItemList {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavBarTitle {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  font-size: 30px;
+  width: 50%;
+}
+
+.NavBarItem {
+  width: 25%;
+}
+
+.material-symbols-outlined {
+  padding-left: 10px;
+  color: #2298cf;
+}
+
+.NavBarItemList button {
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  background-color: #357c9c;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.NavBarSearch {
+  align-items: center;
+  border-radius: 10px;
+  height: 40px;
+  background: white;
+  width: 100%;
+  display: flex;
+}
+
+.NavBarBottom {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 70px;
+}
+
+.NavBarSearch input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
